@@ -38,9 +38,9 @@ public class Student {
 	   		 return true;
 	   	 }
 	   	public static void main(String[] args) {
-	   		Undergrad ugrad = new Undergrad("Nazeer","73", 22);
+	   		Undergrad ugrad = new Undergrad("Rajan","73", 22);
 	   		System.out.println("undergrad is passed : "+ ugrad.isPassed(50));
-			Grad grad = new Grad("Ahmad","72",23);
+			Grad grad = new Grad("kumar","72",23);
 			System.out.println("grad is passed : "+ grad.isPassed(90));
 			
 
